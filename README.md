@@ -1,5 +1,6 @@
-# rsync-doc
+
+<embed src="how to use rsync.pdf" type="application/pdf" />
 
 
-
-# https://www.ruanyifeng.com/blog/2020/08/rsync.html
+Reference:
+* https://www.ruanyifeng.com/blog/2020/08/rsync.html
