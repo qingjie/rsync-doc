@@ -8,9 +8,9 @@ Reference:
 ### Copy big file from one server to another
 
 (1)rsync with root user
-rsync -avhW --no-compress --progress root@10.20.42.6:/mnt2/docker_storage/volumes/git-config .
-rsync -avhW --no-compress --progress root@10.20.42.6:/mnt2/docker_storage/volumes/git-data .
-rsync -avhW --no-compress --progress root@10.20.42.6:/mnt2/docker_storage/volumes/git-logs .
+rsync -avhW --no-compress --progress root@sourceIP:/mnt2/docker_storage/volumes/git-config .
+rsync -avhW --no-compress --progress root@sourceIP:/mnt2/docker_storage/volumes/git-data .
+rsync -avhW --no-compress --progress root@sourceIP:/mnt2/docker_storage/volumes/git-logs .
 
 (2) with nc
 server1: nc -l 5678
